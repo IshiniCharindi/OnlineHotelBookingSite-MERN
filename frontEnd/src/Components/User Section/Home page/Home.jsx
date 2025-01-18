@@ -5,6 +5,7 @@ import sliderImage3 from '../../../assets/swimming-pool.jpg';
 import Header from "../Header/Header.jsx";
 import Rooms from "./Rooms/Rooms.jsx";
 import Services from "./Services/Services.jsx";
+import Tours from "./Tours/Tours.jsx";
 
 const Home = () => {
     const slides = [sliderImage1, sliderImage2, sliderImage3]; // Array of slide images
@@ -93,6 +94,7 @@ const Home = () => {
                 </div>
                 <Rooms/>
                 <Services/>
+                <Tours/>
             </section>
 
 

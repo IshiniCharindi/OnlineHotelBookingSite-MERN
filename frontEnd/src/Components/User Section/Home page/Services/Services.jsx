@@ -37,7 +37,7 @@ const Services = () => {
     return (
         <div>
 
-            <section className="py-10 bg-[#4a423a] sm:py-16 lg:py-24">
+            <section className="py-10 h-96 bg-[#4a423a] sm:py-16 lg:py-24">
                 <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 text-center  sm:grid-cols-2 gap-y-8 lg:grid-cols-4 sm:gap-12">
                         <Element
@@ -60,26 +60,7 @@ const Services = () => {
                             title="Lorem ipsum dolor sit."
                             description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi distinctio eius, non possimus quod totam!"
                         />
-                        <Element
-                            svg={svgArray[0]}
-                            title="Lorem ipsum dolor sit."
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi distinctio eius, non possimus quod totam!"
-                        />
-                        <Element
-                            svg={svgArray[1]}
-                            title="Lorem ipsum dolor sit."
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi distinctio eius, non possimus quod totam!"
-                        />
-                        <Element
-                            svg={svgArray[2]}
-                            title="Lorem ipsum dolor sit."
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi distinctio eius, non possimus quod totam!"
-                        />
-                        <Element
-                            svg={svgArray[3]}
-                            title="Lorem ipsum dolor sit."
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi distinctio eius, non possimus quod totam!"
-                        />
+
                     </div>
                 </div>
             </section>

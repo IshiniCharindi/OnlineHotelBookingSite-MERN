@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import sliderImage1 from '../../../assets/luxury-bedroom-hotel.jpg';
 import sliderImage2 from '../../../assets/CentralBackpackers7.jpg';
 import sliderImage3 from '../../../assets/swimming-pool.jpg';
-import MenuLinks from "../../Menu Links/MenuLinks.jsx";
 import Header from "../Header/Header.jsx";
+import Rooms from "./Rooms/Rooms.jsx";
 
 const Home = () => {
     const slides = [sliderImage1, sliderImage2, sliderImage3]; // Array of slide images
@@ -26,7 +26,6 @@ const Home = () => {
                     <div className="relative h-screen bg-black overflow-hidden rounded-lg">
                         {/* Header Section */}
                         <Header/>
-
                         {/* Text Section */}
                         <div className="absolute inset-0 opacity-100 flex items-center justify-center text-center px-6 sm:px-10 lg:px-16">
                             <div>
@@ -91,7 +90,10 @@ const Home = () => {
                         </button>
                     </div>
                 </div>
+            <Rooms/>
             </section>
+
+
         </div>
     );
 };

@@ -28,6 +28,9 @@ const Header = () => {
                         <div className="text-lg text-white hover:text-gray-300 transition">
                             <MenuLinks src="/rooms" text="Rooms"/>
                         </div>
+                        <div className="text-lg text-white hover:text-gray-300 transition">
+                            <MenuLinks src="/tours" text="Tours"/>
+                        </div>
 
 
                     </nav>
